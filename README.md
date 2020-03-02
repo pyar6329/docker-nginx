@@ -4,3 +4,12 @@
 
 - `proxy_http_version 1.1`
 - hostname: `my-nginx`
+
+[Docker Hub](https://hub.docker.com/r/pyar6329/nginx)
+
+## Usage
+
+```bash
+$ docker run --rm -p 80:80 pyar6329/nginx:latest
+```
+
